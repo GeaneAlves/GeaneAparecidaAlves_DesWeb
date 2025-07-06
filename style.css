@@ -1,0 +1,114 @@
+/* estilização do fundo da página de Sobre Mim */
+body {
+    background-color: rgb(248, 248, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+
+    /* estilização do parágrafo primeiro */
+
+}
+
+h1 {
+    color: darkred;
+}
+
+/* Estilização dos parágrafos  */
+
+p {
+    color: navy;
+    text-align: justify;
+}
+
+/* Estilização dos tesxto e imagens colocado em centralizadas */
+
+ul {
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+    list-style: none;
+}
+
+li {
+    font-size: 22px;
+}
+
+/* estilização do cabeçalho */
+
+li a:hover {
+    color: darkred;
+}
+
+footer {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+.caixa-contato {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(230, 165, 221);
+
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+/* estilização das caixinhas para envio de dados */
+
+#contato {
+    padding: 30px;
+    width: 350px;
+    margin: 50px auto;
+    border-radius: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* definição de espaço para as caixinhas de dados */
+
+#contato label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+#contato input,
+#contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+/* estilziação dos dados do botão enviar */ 
+
+#contato button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    width: 35%;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px 0;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* estilização do botão enviar para alterar a cor ao ser passado o mouse */
+#contato button:hover {
+    background-color: #c90899;
+
+}
