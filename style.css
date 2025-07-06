@@ -49,8 +49,52 @@ body {
         margin: auto;
     }
 
+    #contato {
+        padding: 30px;
+        width: 350px;
+        margin: 50px auto;
+        border-radius: 8px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
 
+    #contato label{
+        display: block;
+        margin-bottom: 6px;
+        color: #333;    
+    }
 
+    #contato input,
+    #contato textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        font-size: 15px;
+        box-sizing: border-box;
+        transition: border-color 0.2s;
+    }
+
+    #contato button {
+        background: #007bff;
+        color: #fff;
+        border: none;
+        width: 35%;
+        border-radius: 4px;
+        font-size: 16px;
+        padding: 8px 0;
+        cursor: pointer;
+        transition: background 0.2s;
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+    /* não funciona o hover */
+    #contato button :hover {
+        background-color: #c90899;
+
+    }
+ 
 
 
 
